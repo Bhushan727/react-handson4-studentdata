@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(cyan,pink,cyan);
+}
+.navHeads{
+  height: 80px;
+  background-color: blue;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35px;
+  font-family: 'montserrat', sans-serif;
+}
+.nav-item{
+  list-style: none;
+  
+}
+
+.headTitle{
+  
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headTitle div{
+  border: 2px solid black;
+  width: 250px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+
+.tableDiv{
+  width: 90%;
+  margin: auto;
+  background-color:#fff ;
+}
